@@ -1,1 +1,9 @@
-.Map {}
+.Map {
+  width: 500px;
+  height: 500px;
+}
+
+.Map path {
+  stroke: white;
+  stroke-width: 1px;
+}
