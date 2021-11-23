@@ -1,42 +1,35 @@
-import React, { useState, useEffect } from "react";
+import React, { useContext, useEffect } from "react";
 import * as d3 from "d3";
+import GeoJSONContext from "../providers/GeoJSONProvider";
 import "./Map.css";
 
-function Map(props) {
-  const [geoJSONData, setGeoJSONData] = useState({});
+const Map = ({ mapType, subject }) => {
+  const geoJSONData = useContext(GeoJSONContext);
+
+  console.log(geoJSONData, mapType, subject);
 
   useEffect(() => {
-    fetchGeoJSONData(props.geoJSONUrl);
-  }, []);
-
-  const fetchGeoJSONData = async () => {
-    try {
-      const response = await fetch(props.geoJSONUrl);
-      const data = await response.json();
-      setGeoJSONData(data);
-    } catch (error) {
-      console.log(error);
+    if (geoJSONData[mapType]) {
+      drawMap(subject, geoJSONData[mapType]);
     }
-  };
-
-  drawMap(props.id, geoJSONData);
+  }, [geoJSONData]);
 
   return (
     <div>
-      <h1>{props.id}</h1>
-      <svg id={props.id} className="Map"></svg>
+      <h1>{subject}</h1>
+      <svg id={subject} className="Map"></svg>
     </div>
   );
-}
+};
 
-function drawMap(id, geoJSONData) {
+function drawMap(subject, geoJSONData) {
   const width = 500;
   const height = 500;
 
   const projection = d3.geoMercator().fitSize([width, height], geoJSONData);
   const path = d3.geoPath(projection);
 
-  d3.select(`#${id}`)
+  d3.select(`#${subject}`)
     .append("g")
     .selectAll("path")
     .data(geoJSONData.features)

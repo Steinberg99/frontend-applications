@@ -4,3 +4,8 @@ html {
   margin: 0;
   padding: 0;
 }
+
+#maps-container {
+  display: flex;
+  flex-wrap: wrap;
+}
