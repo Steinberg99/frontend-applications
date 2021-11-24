@@ -6,8 +6,6 @@ import "./Map.css";
 const Map = ({ mapType, subject }) => {
   const geoJSONData = useContext(GeoJSONContext);
 
-  console.log(geoJSONData, mapType, subject);
-
   useEffect(() => {
     if (geoJSONData[mapType]) {
       drawMap(subject, geoJSONData[mapType]);
