@@ -14,6 +14,10 @@ Feel free to clone this repository or [visit]() this site and take a look!
 
 ![Homescreen](./images/home.png)
 
+![Chart](./images/chart.png)
+
+![Map](./images/map.png)
+
 ## 🧑‍💻 How to install
 
 > **NOTE:** Before you can install this project be sure to have both [Node.js](https://nodejs.org/en/download/) and NPM installed. NPM should automatically be installed when installing Node.js.
