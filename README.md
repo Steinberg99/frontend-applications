@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# frontend-applications
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📋 My concept
 
-## Available Scripts
+Hi! Welcome to my repository for the two week course frontend-applications! Here you can find the website I produced during this course.
 
-In the project directory, you can run:
+We were tasked to create a data visualization using `D3.js` and a JavaScript framework of your choice. I decided to use `React` for this exercise. I chose to visualize temperature data of the Netherlands. I was curious if I could see the effect of global warming on temperature in my own visualisations. I used the following question as the basis of my visualizations.
 
-### `npm start`
+- Can the effects of global warming be recognised in the monthly average temperatures per century in the Netherlands?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Feel free to clone this repository or [visit]() this site and take a look!
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+> **NOTE:** The content on this website is completely written in Dutch!
 
-### `npm test`
+![Homescreen](./images/home.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧑‍💻 How to install
 
-### `npm run build`
+> **NOTE:** Before you can install this project be sure to have both [Node.js](https://nodejs.org/en/download/) and NPM installed. NPM should automatically be installed when installing Node.js.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can install my project locally by running the following command in your local folder.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `git clone https://github.com/Steinberg99/functional-programming`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+When you have cloned my repository run the command `npm install` to install all of the project dependencies. Run this command in the local folder where you cloned my project. When you have done this you can run the command `npm start` to start the project. The website should open automatically in the browser on `localhost:3000`.
 
-### `npm run eject`
+## 💻 Technologies
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+During this project I made use of the following technologies or libraries.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Node.js](https://nodejs.org/en/download/),
+- [React](https://reactjs.org/)
+- [D3.js](https://d3js.org/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## ✍️ Author and license
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Author: [Stein Bergervoet](https://github.com/Steinberg99/), license: [MIT License](https://github.com/Steinberg99/functional-programming/blob/main/LICENSE).
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
