@@ -34,7 +34,7 @@ During this project I made use of the following technologies or libraries.
 
 - [Node.js](https://nodejs.org/en/download/),
 - [React](https://reactjs.org/),
-- [D3.js](https://d3js.org/),
+- [D3.js](https://d3js.org/)
 
 ## ✍️ Author and license
 
