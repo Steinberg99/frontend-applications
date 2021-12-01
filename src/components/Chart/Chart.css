@@ -1,4 +1,35 @@
 .Chart {
-  width: 500px;
-  height: 250px;
+  width: 1000px;
+  height: 500px;
+}
+
+.temp-dot {
+  fill: #f26419;
+}
+
+.previous-temp-dot {
+  fill: #b3bfd0;
+}
+
+path {
+  fill: none;
+}
+
+.temp-path {
+  stroke: #f26419;
+  stroke-width: 2;
+}
+
+.previous-temp-path {
+  stroke: #b3bfd0;
+  stroke-width: 2;
+}
+
+.background-line {
+  stroke: #405b8c;
+  stroke-width: 1;
+}
+
+.background-rect {
+  fill: #f2f4f7;
 }
